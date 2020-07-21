@@ -1,0 +1,124 @@
+wonderWoman.className
+const wonderWoman = document.querySelector('ul#roster li:last-child')
+
+undefined
+wonderWoman.className
+
+"hero"
+wonderWoman.className = 'hero'
+
+"hero"
+wonderWoman.classList.add('warrior')
+
+undefined
+wonderWoman.classList.remove('warrior')
+
+undefined
+wonderWoman.classList.toggle('hero')
+
+false
+wonderWoman.className
+
+""
+wonderWoman.classList.toggle('sport')
+
+true
+wonderWoman.classList.contains('hero')
+
+false
+const flash = document.createElement('li')
+
+undefined
+const flashText = document.createTextNode('Flash')
+
+undefined
+flash.appendChild(flashText)
+
+"Flash"
+const flash = document.createElement('li')
+
+flash.textContent = 'Flash'
+
+"Flash"
+function createElement (tag,text) {
+const el = document.createElement(tag);
+el.textContent = text;
+return el
+}
+
+undefined
+const aquaman = createElement('li','Aquaman')
+
+undefined
+heroes.appendChild(flash)
+
+const heroes = document.getElementById('roster')
+
+undefined
+const flash = document.createElement('li')
+const flashText = document.createTextNode('Flash')
+flash.appendChild(flashText)
+
+"Flash"
+flash.textContent = 'Flash'
+
+"Flash"
+function createElement (tag,text) {
+const el = document.createElement(tag);
+el.textContent = text;
+return el
+}
+
+undefined
+const aquaman = createElement('li','Aquaman')
+heroes.appendChild(flash)
+
+<li>​Flash​</li>​
+heroes.insertBefore(aquaman,wonderWoman)
+
+<li>​Aquaman​</li>​
+heroes.appendChild(wonderWoman)
+
+<li class=​"sport">​Wonder Woman​</li>​
+heroes.removeChild(aquaman)
+
+<li>​Aquaman​</li>​
+const h1 = document.getElementById('title')
+
+undefined
+const oldText = h1.firstChild
+
+undefined
+const newText = document.createTextNode('Justice League of America')
+
+undefined
+heroes.appendChild(aquaman)
+
+<li>​Aquaman​</li>​
+h1.replaceChild(newText,oldText)
+
+"Justice League"
+heroes.innerHTML
+
+"<li class="hero">Superman</li>
+<li class="vigilante hero" id="bats">Batman</li>
+<li>Flash</li>
+<li class="sport">Wonder Woman</li>
+<li>Aquaman</li>"
+h1.innerHTML = 'Suicide Squad'
+
+"Suicide Squad"
+heroes.innerHTML = '<li>Harley Quinn</li>
+<li>Deadshot</li>
+<li>Killer Croc</li>
+<li>Enchantress</li>
+<li>Captain Boomerang</li>
+<li>Katana</li><li>Slipknot</li>'
+
+"<li>Harley Quinn</li>
+<li>Deadshot</li>
+<li>Killer Croc</li>
+<li>Enchantress</li><li>Captain Boomerang</li>
+<li>Katana</li>
+<li>Slipknot</li>"
+const heroes = document.getElementById('roster')

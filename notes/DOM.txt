@@ -1,0 +1,15 @@
+listItems[i] dung de show ra dong code vi tri i
+//Query selector
+document.querySelector('#bats') dung de query Id=bats
+document.querySelectorAll('.hero') dung de query class=
+wonderWoman.getAttribute('class') tra ve thuoc tinh class la gi
+wonderWoman.setAttribute('class', 'villain') dung de chinh sua thuoc tinh class (get la kiem tra)
+wonderWoman.setAttribute('id','amazon') dung de them(neu chua co) hoac chinh sua id cua dong code 
+wonderWoman.className dung để kiểm tra class tên là gì
+wonderWoman.classList.add('warrior') thêm thuộc  tính của class(ngoài ra còn có remove(xoa tất cả luôn))
+wonderWoman.classList.contains('hero') kiểm tra xem một phần tử có một lớp cụ thể không(lớp ảo do mình tạo ra ở web sẽ không khả dụng)
+heroes.appendChild(flash) dùng để thêm thuộc tính mới.cũng có thể cho nó xuống dưới cùng của list(removeChild để xóa)
+heroes.insertBefore(aquaman,wonderWoman) thêm thuộc tính mới ở trước thuộc tính yêu cầu
+h1.replaceChild(newText,oldText) dùng để thay đổi dòng dữ liệu của thẻ
+hoặc dùng h1.innerHTML = 'newtext'
+heroes.innerHTML dùng để show tất cả code trong body
